@@ -1,4 +1,4 @@
-def key_for_min_value(hash)
+def key_for_min_value(name_hash)
   if name_hash = {}
     return nil
   else
@@ -11,5 +11,5 @@ def key_for_min_value(hash)
         end
       end
       min_key
-  end 
+  end
 end
